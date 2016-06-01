@@ -10,9 +10,10 @@ using System.ComponentModel.DataAnnotations;
 namespace Bcs.Gps.Core.Company
 {
     [Table("Company")]
-    class Company : FullAuditedEntity<long>
+    public class Company : FullAuditedEntity<long>
     {
         public string test { get; set; }
+
         #region Constant Properties
         public const int CompanyNameMaxLength = 64;
         public const int Address1MaxLength = 64;
