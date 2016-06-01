@@ -171,7 +171,7 @@
       <Project>{A23611D5-AB4B-45A0-AEF8-3ACA67B474CB}</Project>
       <Name>Bgts.Auth.TestBase</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Bcs.Gps.Application\Bgts.Gps.Application.csproj">
+    <ProjectReference Include="..\Bgts.Gps.Application\Bgts.Gps.Application.csproj">
       <Project>{825AC2EA-5725-4351-AA9D-E8ACDF32C9C3}</Project>
       <Name>Bgts.Gps.Application</Name>
     </ProjectReference>
@@ -179,7 +179,7 @@
       <Project>{66EBCC60-C0D0-412C-A045-AC76D6B4B68F}</Project>
       <Name>Bgts.Gps.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Bcs.Gps.EntityFramework\Bgts.Gps.EntityFramework.csproj">
+    <ProjectReference Include="..\Bgts.Gps.EntityFramework\Bgts.Gps.EntityFramework.csproj">
       <Project>{50D4F63D-A57E-4153-998D-A823CC4CB99C}</Project>
       <Name>Bgts.Gps.EntityFramework</Name>
     </ProjectReference>
