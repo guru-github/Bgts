@@ -12,7 +12,7 @@ namespace Bcs.Gps.Core.Company
     [Table("Company")]
     public class Company : FullAuditedEntity<long>
     {
-        public string test { get; set; }
+        public string test1 { get; set; }
 
         #region Constant Properties
         public const int CompanyNameMaxLength = 64;
