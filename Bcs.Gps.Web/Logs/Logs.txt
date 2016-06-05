@@ -1,0 +1,106 @@
+DEBUG 2016-06-06 01:03:59,871 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-06-06 01:04:03,871 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2016-06-06 01:04:03,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Bcs.Gps.GpsApplicationModule, Bcs.Gps.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Bcs.Gps.GpsCoreModule, Bcs.Gps.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Bcs.Gps.GpsDataModule, Bcs.Gps.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Bcs.Gps.Web.GpsWebModule, Bcs.Gps.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Bcs.Gps.Api.GpsWebApiModule, Bcs.Gps.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-06 01:04:03,883 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2016-06-06 01:04:03,964 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-06-06 01:04:03,964 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-06-06 01:04:03,964 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-06-06 01:04:03,964 [1    ] o.Configuration.LanguageManagementConfig - Converted Gps (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+INFO  2016-06-06 01:04:04,073 [1    ] Hangfire.SqlServer.SqlServerStorage      - Start installing Hangfire SQL objects...
+INFO  2016-06-06 01:04:04,311 [1    ] Hangfire.SqlServer.SqlServerStorage      - Hangfire SQL objects installed.
+DEBUG 2016-06-06 01:04:06,645 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-06-06 01:04:06,670 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-06-06 01:04:06,671 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-06-06 01:04:06,672 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-06-06 01:04:06,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Gps
+DEBUG 2016-06-06 01:04:06,684 [1    ] bp.Hangfire.HangfireBackgroundJobManager - Start background worker: Abp.Hangfire.HangfireBackgroundJobManager
+INFO  2016-06-06 01:04:06,759 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2016-06-06 01:04:06,764 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: KUTTU@BcsGps'.
+INFO  2016-06-06 01:04:06,765 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2016-06-06 01:04:06,765 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2016-06-06 01:04:06,765 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2016-06-06 01:04:06,765 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20.
+INFO  2016-06-06 01:04:06,765 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'.
+INFO  2016-06-06 01:04:06,765 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15.
+INFO  2016-06-06 01:04:06,765 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15.
+DEBUG 2016-06-06 01:04:06,785 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2016-06-06 01:04:06,966 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes defines auto mapping attributes
+DEBUG 2016-06-06 01:04:06,966 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Bcs.Gps.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-06-06 01:04:07,122 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2016-06-06 01:04:07,126 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2016-06-06 01:04:07,137 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2016-06-06 01:04:07,184 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'AggregatedCounter'...
+DEBUG 2016-06-06 01:04:07,198 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2016-06-06 01:04:07,222 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-06-06 01:04:07,230 [42d3c] Hangfire.Server.Worker                   - Background process 'Worker #ec742d3c' started.
+DEBUG 2016-06-06 01:04:07,233 [21d08] Hangfire.Server.Worker                   - Background process 'Worker #7d721d08' started.
+DEBUG 2016-06-06 01:04:07,240 [0d52f] Hangfire.Server.Worker                   - Background process 'Worker #1670d52f' started.
+DEBUG 2016-06-06 01:04:07,265 [abbb7] Hangfire.Server.Worker                   - Background process 'Worker #b41abbb7' started.
+DEBUG 2016-06-06 01:04:07,269 [7e25a] Hangfire.Server.Worker                   - Background process 'Worker #0027e25a' started.
+DEBUG 2016-06-06 01:04:07,281 [c3c6f] Hangfire.Server.Worker                   - Background process 'Worker #de2c3c6f' started.
+DEBUG 2016-06-06 01:04:07,287 [2c099] Hangfire.Server.Worker                   - Background process 'Worker #0472c099' started.
+DEBUG 2016-06-06 01:04:07,290 [726d3] Hangfire.Server.Worker                   - Background process 'Worker #d3a726d3' started.
+DEBUG 2016-06-06 01:04:07,297 [cb026] Hangfire.Server.Worker                   - Background process 'Worker #d11cb026' started.
+DEBUG 2016-06-06 01:04:07,309 [06893] Hangfire.Server.Worker                   - Background process 'Worker #24a06893' started.
+DEBUG 2016-06-06 01:04:07,354 [6a3ec] Hangfire.Server.Worker                   - Background process 'Worker #9f86a3ec' started.
+DEBUG 2016-06-06 01:04:07,358 [e74ea] Hangfire.Server.Worker                   - Background process 'Worker #1b8e74ea' started.
+DEBUG 2016-06-06 01:04:07,360 [ab5d8] Hangfire.Server.Worker                   - Background process 'Worker #161ab5d8' started.
+DEBUG 2016-06-06 01:04:07,364 [61261] Hangfire.Server.Worker                   - Background process 'Worker #edd61261' started.
+DEBUG 2016-06-06 01:04:07,368 [b4f02] Hangfire.Server.Worker                   - Background process 'Worker #eb1b4f02' started.
+DEBUG 2016-06-06 01:04:07,374 [13aac] Hangfire.Server.Worker                   - Background process 'Worker #3b113aac' started.
+DEBUG 2016-06-06 01:04:07,378 [cdc0a] Hangfire.Server.Worker                   - Background process 'Worker #936cdc0a' started.
+DEBUG 2016-06-06 01:04:07,382 [e2050] Hangfire.Server.Worker                   - Background process 'Worker #4a0e2050' started.
+DEBUG 2016-06-06 01:04:07,387 [f2a70] Hangfire.Server.Worker                   - Background process 'Worker #3cbf2a70' started.
+DEBUG 2016-06-06 01:04:07,391 [ff69a] Hangfire.Server.Worker                   - Background process 'Worker #8e7ff69a' started.
+DEBUG 2016-06-06 01:04:07,396 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2016-06-06 01:04:07,401 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Job'...
+DEBUG 2016-06-06 01:04:07,403 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+DEBUG 2016-06-06 01:04:07,452 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'List'...
+DEBUG 2016-06-06 01:04:07,455 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Set'...
+DEBUG 2016-06-06 01:04:07,457 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Hash'...
+DEBUG 2016-06-06 01:04:07,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Bcs.Gps.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-06-06 01:04:07,561 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Bcs.Gps.Users.Dto.CreateUserInput
+DEBUG 2016-06-06 01:04:07,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Bcs.Gps.Users.Dto.UserListDto
+DEBUG 2016-06-06 01:04:07,617 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Bcs.Gps.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-06-06 01:04:07,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Bcs.Gps.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-06-06 01:04:07,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Bcs.Gps.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-06-06 01:04:07,646 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Bcs.Gps.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-06-06 01:04:07,649 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Bcs.Gps.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-06-06 01:04:07,651 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Bcs.Gps.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-06-06 01:04:07,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Bcs.Gps.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-06-06 01:04:22,957 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"244f828c-699d-45bc-83a4-03deb38ad83d","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2016-06-06T01:04:22.9496989+05:30","Properties":{}}
+DEBUG 2016-06-06 01:04:22,998 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 244f828c-699d-45bc-83a4-03deb38ad83d
+DEBUG 2016-06-06 01:04:53,237 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b01fa7b5-6ad3-4921-beec-9977eb36fe5d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-06-06T01:04:53.2360424+05:30","Properties":{}}
+DEBUG 2016-06-06 01:04:53,252 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b01fa7b5-6ad3-4921-beec-9977eb36fe5d
+DEBUG 2016-06-06 01:05:09,447 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b01fa7b5-6ad3-4921-beec-9977eb36fe5d
+DEBUG 2016-06-06 01:05:10,296 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"51aaca9e-4b69-4b09-a267-e5480fbddd28","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-06-06T01:05:10.2963558+05:30","Properties":{}}
+DEBUG 2016-06-06 01:05:10,347 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 51aaca9e-4b69-4b09-a267-e5480fbddd28
+DEBUG 2016-06-06 01:05:12,782 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 51aaca9e-4b69-4b09-a267-e5480fbddd28
+DEBUG 2016-06-06 01:05:13,523 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a26a7621-8045-47b3-b61b-5e5ec080ad11","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-06-06T01:05:13.5220899+05:30","Properties":{}}
+DEBUG 2016-06-06 01:05:13,551 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a26a7621-8045-47b3-b61b-5e5ec080ad11
+DEBUG 2016-06-06 01:05:22,571 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 244f828c-699d-45bc-83a4-03deb38ad83d
+DEBUG 2016-06-06 01:06:00,996 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a26a7621-8045-47b3-b61b-5e5ec080ad11
+DEBUG 2016-06-06 01:06:01,757 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"91265df9-8610-43a8-a130-a6ffce7af761","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-06-06T01:06:01.7555312+05:30","Properties":{}}
+DEBUG 2016-06-06 01:06:01,772 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 91265df9-8610-43a8-a130-a6ffce7af761
+DEBUG 2016-06-06 01:06:09,922 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 91265df9-8610-43a8-a130-a6ffce7af761
+DEBUG 2016-06-06 01:06:10,705 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5bab220f-1fa4-4dc4-95c5-17a2abcc110f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-06-06T01:06:10.7044748+05:30","Properties":{}}
+DEBUG 2016-06-06 01:06:10,766 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5bab220f-1fa4-4dc4-95c5-17a2abcc110f
+DEBUG 2016-06-06 01:06:15,085 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5bab220f-1fa4-4dc4-95c5-17a2abcc110f
+DEBUG 2016-06-06 01:06:15,613 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8c84560b-cb7c-414d-804d-0ff1d989dd5f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-06-06T01:06:15.6123965+05:30","Properties":{}}
+DEBUG 2016-06-06 01:06:15,664 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8c84560b-cb7c-414d-804d-0ff1d989dd5f
+DEBUG 2016-06-06 01:09:07,296 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...

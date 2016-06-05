@@ -1,4 +1,0 @@
-E:\BGTS\Bcs.Auth.TestBase\obj\Debug\Bgts.Auth.TestBase.csprojResolveAssemblyReference.cache
-E:\BGTS\Bcs.Auth.TestBase\obj\Debug\Bcs.Auth.TestBase.dll
-E:\BGTS\Bcs.Auth.TestBase\obj\Debug\Bcs.Auth.TestBase.pdb
-E:\MVCProject\Bgts\Bgts.Auth.TestBase\obj\Debug\Bgts.Auth.TestBase.csprojResolveAssemblyReference.cache

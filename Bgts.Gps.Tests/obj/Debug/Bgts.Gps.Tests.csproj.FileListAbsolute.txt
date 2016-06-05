@@ -1,1 +1,0 @@
-E:\MVCProject\Bgts\Bgts.Gps.Tests\obj\Debug\Bgts.Gps.Tests.csprojResolveAssemblyReference.cache
