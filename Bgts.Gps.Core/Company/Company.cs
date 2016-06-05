@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Abp.Domain.Entities.Auditing;
 using System.ComponentModel.DataAnnotations;
 
@@ -11,9 +7,7 @@ namespace Bcs.Gps.Core.Company
 {
     [Table("Company")]
     public class Company : FullAuditedEntity<long>
-    {
-        public string test { get; set; }
-
+    {        
         #region Constant Properties
         public const int CompanyNameMaxLength = 64;
         public const int Address1MaxLength = 64;
@@ -31,22 +25,23 @@ namespace Bcs.Gps.Core.Company
         #endregion
 
         #region Public Properties
+        [Key]
         public int? Id { get; set; }
         [StringLength(CompanyNameMaxLength)]
-        public string? CompanyName { get; set; }
+        public string CompanyName { get; set; }
 
         [StringLength(Address1MaxLength)]
-        public string? Address1 { get; set; }
+        public string Address1 { get; set; }
 
         [StringLength(Address2MaxLength)]
-        public string? Address2 { get; set; }
-        public long? CityId { get; set; }
+        public string Address2 { get; set; }
+        public long CityId { get; set; }
         [StringLength(PhoneNoMaxLength)]
-        public string? PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
         [StringLength(FaxMaxLength)]
-        public string? Fax { get; set; }
+        public string Fax { get; set; }
         [StringLength(ZipcodeMaxLength)]
-        public string? Zipcode { get; set; }
+        public string Zipcode { get; set; }
         public long? TenantId { get; set; }
         public bool? IsDeleted { get; set; }
         public long? DeleterUserId { get; set; }

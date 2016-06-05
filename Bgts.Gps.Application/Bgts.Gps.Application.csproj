@@ -113,20 +113,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bgts.Auth.Core\Bgts.Auth.Core.csproj">
-      <Project>{F9F101C4-8FAA-4F31-9BFF-5F22FD99CBC2}</Project>
-      <Name>Bgts.Auth.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Bcs.Gps.Core\Bgts.Gps.Core.csproj">
-      <Project>{66EBCC60-C0D0-412C-A045-AC76D6B4B68F}</Project>
-      <Name>Bgts.Gps.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Bcs.Gps.EntityFramework\Bgts.Gps.EntityFramework.csproj">
-      <Project>{50D4F63D-A57E-4153-998D-A823CC4CB99C}</Project>
-      <Name>Bgts.Gps.EntityFramework</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>

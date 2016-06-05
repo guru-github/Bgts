@@ -2,8 +2,7 @@
 using System.Linq;
 using Bgts.Auth.EntityFramework;
 using Bgts.Gps.EntityFramework;
-using Bgts.Gps.EnumTypes;
-using Bgts.Gps.Maintain.ClientContacts;
+
 
 namespace Bgts.Gps.Migrations.Seed.Maintain
 {

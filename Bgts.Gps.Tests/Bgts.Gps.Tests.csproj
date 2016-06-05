@@ -155,29 +155,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bgts.Auth.Application\Bgts.Auth.Application.csproj">
-      <Project>{A51753FC-D14F-43DB-8A0F-4156C78786D1}</Project>
-      <Name>Bgts.Auth.Application</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Bgts.Auth.Core\Bgts.Auth.Core.csproj">
-      <Project>{F9F101C4-8FAA-4F31-9BFF-5F22FD99CBC2}</Project>
-      <Name>Bgts.Auth.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Bgts.Auth.EntityFramework\Bgts.Auth.EntityFramework.csproj">
-      <Project>{1DFD18FD-0520-4475-9355-6E66E3798D5A}</Project>
-      <Name>Bgts.Auth.EntityFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Bgts.Auth.TestBase\Bgts.Auth.TestBase.csproj">
-      <Project>{A23611D5-AB4B-45A0-AEF8-3ACA67B474CB}</Project>
-      <Name>Bgts.Auth.TestBase</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Bgts.Gps.Application\Bgts.Gps.Application.csproj">
       <Project>{825AC2EA-5725-4351-AA9D-E8ACDF32C9C3}</Project>
       <Name>Bgts.Gps.Application</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Bcs.Gps.Core\Bgts.Gps.Core.csproj">
-      <Project>{66EBCC60-C0D0-412C-A045-AC76D6B4B68F}</Project>
-      <Name>Bgts.Gps.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\Bgts.Gps.EntityFramework\Bgts.Gps.EntityFramework.csproj">
       <Project>{50D4F63D-A57E-4153-998D-A823CC4CB99C}</Project>

@@ -1,0 +1,1 @@
+E:\MVCProject\Bgts\Bgts.Auth.Tests\obj\Debug\Bgts.Auth.Tests.csprojResolveAssemblyReference.cache

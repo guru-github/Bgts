@@ -9,15 +9,15 @@ namespace Bgts.Auth
     /// <summary>
     /// Entity framework module of the application.
     /// </summary>
-    [DependsOn(typeof(AbpZeroEntityFrameworkModule), typeof(AuthCoreModule))]
+    //[DependsOn(typeof(AbpZeroEntityFrameworkModule), typeof(AuthCoreModule))]
     public class AuthDataModule : AbpModule
     {
         public override void PreInitialize()
         {
-            if (!DebugHelper.IsDebug)
-            {
+            //if (!DebugHelper.IsDebug)
+            //{
                 IocManager.Register<IAuthDataModuleConfiguration, AuthDataModuleConfiguration>();
-            }
+            //}
         }
 
         public override void Initialize()

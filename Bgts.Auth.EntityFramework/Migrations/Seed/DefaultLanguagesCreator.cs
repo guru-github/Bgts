@@ -40,14 +40,14 @@ namespace Bgts.Auth.Migrations.Seed
 
         private void AddLanguageIfNotExists(ApplicationLanguage language)
         {
-            if (_context.Languages.Any(l => l.TenantId == language.TenantId && l.Name == language.Name))
-            {
-                return;
-            }
+            //if (_context.Languages.Any(l => l.TenantId == language.TenantId && l.Name == language.Name))
+            //{
+            //    return;
+            //}
 
-            _context.Languages.Add(language);
+            //_context.Languages.Add(language);
 
-            _context.SaveChanges();
+            //_context.SaveChanges();
         }
     }
 }

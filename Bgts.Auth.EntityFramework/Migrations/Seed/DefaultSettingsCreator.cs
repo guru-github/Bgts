@@ -27,13 +27,13 @@ namespace Bgts.Auth.Migrations.Seed
 
         private void AddSettingIfNotExists(string name, string value, int? tenantId = null)
         {
-            if (_context.Settings.Any(s => s.Name == name && s.TenantId == tenantId && s.UserId == null))
-            {
-                return;
-            }
+            //if (_context.Settings.Any(s => s.Name == name && s.TenantId == tenantId && s.UserId == null))
+            //{
+            //    return;
+            //}
 
-            _context.Settings.Add(new Setting(tenantId, null, name, value));
-            _context.SaveChanges();
+            //_context.Settings.Add(new Setting(tenantId, null, name, value));
+            //_context.SaveChanges();
         }
     }
 }
