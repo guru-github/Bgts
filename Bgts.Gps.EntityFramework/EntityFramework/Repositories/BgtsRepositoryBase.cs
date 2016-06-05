@@ -5,12 +5,12 @@ using Abp.EntityFramework.Repositories;
 
 namespace Bgts.Gps.EntityFramework.Repositories
 {
-    public abstract class VhasRepositoryBase<TDbContext, TEntity, TPrimaryKey> :
+    public abstract class BgtsRepositoryBase<TDbContext, TEntity, TPrimaryKey> :
         EfRepositoryBase<TDbContext, TEntity, TPrimaryKey>
         where TEntity : class, IEntity<TPrimaryKey>
         where TDbContext : DbContext
     {
-        protected VhasRepositoryBase(IDbContextProvider<TDbContext> dbContextProvider)
+        protected BgtsRepositoryBase(IDbContextProvider<TDbContext> dbContextProvider)
             : base(dbContextProvider)
         {
 

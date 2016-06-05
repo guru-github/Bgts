@@ -8,7 +8,7 @@ using Bgts.Gps.EntityFramework;
 
 namespace Bgts.Gps.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<VhasDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BgtsDbContext>
     {
         public Configuration()
         {
@@ -23,10 +23,10 @@ namespace Bgts.Gps.Migrations
             //    AutomaticMigrationDataLossAllowed = true;
             //}
 
-            ContextKey = "Vhas";
+            ContextKey = "Bgts";
         }
 
-        protected override void Seed(VhasDbContext context)
+        protected override void Seed(BgtsDbContext context)
         {
         //    var ioc = IocManager.Instance;
         //    if (ioc.IsRegistered<IAuthDataModuleConfiguration>())
@@ -35,7 +35,7 @@ namespace Bgts.Gps.Migrations
         //        {
         //            using (var authContext = new AuthDbContext(config.Object))
         //            {
-        //                new VhasDbInit(authContext, context).Create();
+        //                new BgtsDbInit(authContext, context).Create();
         //            }
         //        }
         //    }
@@ -43,7 +43,7 @@ namespace Bgts.Gps.Migrations
         //    {
         //        using (var authContext = new AuthDbContext("BcsAuth"))
         //        {
-        //            new VhasDbInit(authContext, context).Create();
+        //            new BgtsDbInit(authContext, context).Create();
         //        }
         //    }
         }

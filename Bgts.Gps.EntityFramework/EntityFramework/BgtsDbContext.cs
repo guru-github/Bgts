@@ -7,12 +7,12 @@ using System.Linq;
 using System.Reflection;
 using Abp;
 using Abp.EntityFramework;
-using Bcs.Gps.Core.Company;
-using Bcs.Gps.Core.Application;
-using Bcs.Gps.Core.Employee;
-using Bcs.Gps.Core.Event;
-using Bcs.Gps.Core.GpsTrack;
-using Bcs.Gps.Core.MobileDevice;
+using Bgts.Gps.Core.Company;
+using Bgts.Gps.Core.Application;
+using Bgts.Gps.Core.Employee;
+using Bgts.Gps.Core.Event;
+using Bgts.Gps.Core.GpsTrack;
+using Bgts.Gps.Core.MobileDevice;
 using Bgts.Gps.Configuration;
 
 namespace Bgts.Gps.EntityFramework

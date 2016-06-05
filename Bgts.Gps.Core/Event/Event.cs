@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bcs.Gps.Core.Event
+namespace Bgts.Gps.Core.Event
 {
     class Event
     {

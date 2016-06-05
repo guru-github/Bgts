@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bgts.Gps.Core.Employee
+namespace Bgts.Gps.Application.Company
 {
-    class Employee
+    class ICompanyAppSevice
     {
     }
 }

@@ -2,11 +2,11 @@
 
 namespace Bgts.Gps.Configuration.Startup
 {
-    public static class VhasDataConfigurationExtensions
+    public static class BgtsDataConfigurationExtensions
     {
-        public static IVhasDataModuleConfiguration VhasDataModule(this IModuleConfigurations configurations)
+        public static IBgtsDataModuleConfiguration BgtsDataModule(this IModuleConfigurations configurations)
         {
-            return configurations.AbpConfiguration.GetOrCreate("Modules.Bgts.Gps", () => configurations.AbpConfiguration.IocManager.Resolve<IVhasDataModuleConfiguration>());
+            return configurations.AbpConfiguration.GetOrCreate("Modules.Bgts.Gps", () => configurations.AbpConfiguration.IocManager.Resolve<IBgtsDataModuleConfiguration>());
         }
     }
 }

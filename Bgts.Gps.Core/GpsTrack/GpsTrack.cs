@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bcs.Gps.Core.GpsTrack
+namespace Bgts.Gps.Core.GpsTrack
 {
     class GpsTrack
     {

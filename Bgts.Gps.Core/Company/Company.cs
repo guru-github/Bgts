@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Domain.Entities.Auditing;
 using System.ComponentModel.DataAnnotations;
 
-namespace Bcs.Gps.Core.Company
+namespace Bgts.Gps.Core.Company
 {
     [Table("Company")]
     public class Company : FullAuditedEntity<long>

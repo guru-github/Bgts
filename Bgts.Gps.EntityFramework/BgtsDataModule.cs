@@ -9,16 +9,16 @@ namespace Bgts.Gps
     /// <summary>
     /// Entity framework module of the application.
     /// </summary>
-    //[DependsOn(typeof(VhasCoreModule), typeof(AbpEntityFrameworkModule))]
-    public class VhasDataModule : AbpModule
+    //[DependsOn(typeof(BgtsCoreModule), typeof(AbpEntityFrameworkModule))]
+    public class BgtsDataModule : AbpModule
     {
         public override void PreInitialize()
         {
             //web.config (or app.config for non-web projects) file should containt a connection string named "Default".
             //if (!DebugHelper.IsDebug)
             //{
-                //Configuration.DefaultNameOrConnectionString = "BcsVhas";
-                IocManager.Register<IVhasDataModuleConfiguration, VhasDataModuleConfiguration>();
+                //Configuration.DefaultNameOrConnectionString = "BcsBgts";
+                IocManager.Register<IBgtsDataModuleConfiguration, BgtsDataModuleConfiguration>();
             //}
         }
 

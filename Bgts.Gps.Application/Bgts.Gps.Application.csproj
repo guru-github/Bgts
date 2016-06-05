@@ -110,6 +110,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\CompanyAppSevice.cs" />
+    <Compile Include="Company\Dto\CompanyDto.cs" />
+    <Compile Include="Company\ICompanyAppSevice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
