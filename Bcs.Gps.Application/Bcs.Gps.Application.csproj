@@ -95,6 +95,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\CompanyAppService.cs" />
+    <Compile Include="Company\Dto\CompanyDetailListDto.cs" />
+    <Compile Include="Company\Dto\CreateOrUpdateCompanyDetailInput.cs" />
+    <Compile Include="Company\Dto\GetCompanyDetailForEditOutput.cs" />
+    <Compile Include="Company\ICompanyAppService.cs" />
     <Compile Include="GpsApplicationModule.cs" />
     <Compile Include="GpsAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />
@@ -126,6 +131,7 @@
       <Name>Bcs.Gps.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

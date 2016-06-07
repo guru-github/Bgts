@@ -169,6 +169,10 @@
     <Compile Include="Migrations\201605041151380_UserAccount_And_Notification_Changes.Designer.cs">
       <DependentUpon>201605041151380_UserAccount_And_Notification_Changes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606071826478_Initial.cs" />
+    <Compile Include="Migrations\201606071826478_Initial.Designer.cs">
+      <DependentUpon>201606071826478_Initial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="GpsDataModule.cs" />
@@ -236,6 +240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605041151380_UserAccount_And_Notification_Changes.resx">
       <DependentUpon>201605041151380_UserAccount_And_Notification_Changes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606071826478_Initial.resx">
+      <DependentUpon>201606071826478_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
